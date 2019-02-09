@@ -1,6 +1,6 @@
 {
   "name": "terminus-hapi",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Jason Vasquez <jason@thevasquez.es>",
   "main": "dist/index.js",
@@ -12,6 +12,7 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw",
+    "prepare": "yarn build",
     "test": "yarn build"
   },
   "dependencies": {
