@@ -11,7 +11,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -cw"
+    "watch": "rollup -cw",
+    "test": "yarn build"
   },
   "dependencies": {
     "@godaddy/terminus": "^4.1.0"
@@ -33,7 +34,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js,json,md}": [
+    "*.{ts,js,json,md,yml}": [
       "prettier --write",
       "git add"
     ]
