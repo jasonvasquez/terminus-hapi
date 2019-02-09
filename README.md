@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jasonvasquez/terminus-hapi.svg?branch=master)](https://travis-ci.org/jasonvasquez/terminus-hapi)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jasonvasquez/terminus-hapi.svg)](https://greenkeeper.io/)
 
 # terminus-hapi
 
